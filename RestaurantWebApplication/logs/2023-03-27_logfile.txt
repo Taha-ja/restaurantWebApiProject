@@ -1,0 +1,8 @@
+2023-03-27 15:31:23.0793 INFO Returned all restaurants from database with success.
+2023-03-27 15:41:40.5253 ERROR Something went wrong inside DeleteRestaurant action: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+2023-03-27 15:42:32.1129 INFO Returned the restaurant with id 2 from database with success.
+2023-03-27 16:11:04.0166 ERROR Something went wrong inside AddRestaurant action: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Restaurant -> RestaurantDto
+DAL.Entities.Models.Restaurant -> DAL.Entities.DTOs.RestaurantDto

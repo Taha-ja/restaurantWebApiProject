@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "BLL/1.0.0": {
         "dependencies": {
-          "DAL": "1.0.0"
+          "DAL": "1.0.0",
+          "NLog.Extensions.Logging": "5.2.2"
         },
         "runtime": {
           "BLL.dll": {}
@@ -393,6 +394,27 @@
             "assetType": "runtime",
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "NLog/5.1.2": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.2.1561"
+          }
+        }
+      },
+      "NLog.Extensions.Logging/5.2.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging": "7.0.0",
+          "NLog": "5.1.2"
+        },
+        "runtime": {
+          "lib/net6.0/NLog.Extensions.Logging.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.2.2.309"
           }
         }
       },
@@ -857,6 +879,20 @@
       "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
       "path": "microsoft.win32.systemevents/5.0.0",
       "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "NLog/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JfQY93ure3IPVTN3eabBewBGvrcXcWIlaesFEXdy5UzIymfIT9yCgLISYtM0cOhjWziIaUr/6Z9NC2RwtjwrsQ==",
+      "path": "nlog/5.1.2",
+      "hashPath": "nlog.5.1.2.nupkg.sha512"
+    },
+    "NLog.Extensions.Logging/5.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V6sd+0Hrk2XlU//XbUizFYTE8Hf8+xFkhi81shIhsKl4tvWFUYmjBY/zBy/wlQCt0K6mfseaEKnayRJVhIz5Iw==",
+      "path": "nlog.extensions.logging/5.2.2",
+      "hashPath": "nlog.extensions.logging.5.2.2.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",

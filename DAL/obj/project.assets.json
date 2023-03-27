@@ -3516,11 +3516,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tjaaouan\\source\\repos\\RestaurantWebApplication\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\tjaaouan\\source\\repos\\RestaurantWebApplication\\restaurantWebApiProject\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\tjaaouan\\source\\repos\\RestaurantWebApplication\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Users\\tjaaouan\\source\\repos\\RestaurantWebApplication\\restaurantWebApiProject\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\tjaaouan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tjaaouan\\source\\repos\\RestaurantWebApplication\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\tjaaouan\\source\\repos\\RestaurantWebApplication\\restaurantWebApiProject\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tjaaouan\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u3/npEufGFcxrvIxpuTOxnokPW/phgNXuJUHNrOvXsvnS8Dt4Ex4G/O3o+PSU8DhhSdExYzWrpL/RnExP1jerA==",
+  "dgSpecHash": "JApWEaCmHF3AsYPusCydsYmXwoJ9BTG7sk3zrsUIQccmC+3dnBtJ3FRGTpkvhBQiwWEki7sWivIZUee/mqU0jQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tjaaouan\\source\\repos\\RestaurantWebApplication\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\tjaaouan\\source\\repos\\RestaurantWebApplication\\restaurantWebApiProject\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tjaaouan\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\tjaaouan\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -1,4 +1,7 @@
-﻿using DAL.Entities.Config;
+﻿using BLL.Contracts;
+using BLL.Implementations;
+using BLL.Implementations.Services;
+using DAL.Entities.Config;
 using Microsoft.EntityFrameworkCore;
 
 namespace RestaurantWebApplication.Extensions
@@ -15,10 +18,18 @@ namespace RestaurantWebApplication.Extensions
                     .AllowAnyHeader());
             });
         }
-        public static void ConfigureMySqlContext(this IServiceCollection services, IConfiguration config)
+        public static void ConfigureSqlServerContext(this IServiceCollection services, IConfiguration config)
         {
             var connectionString = config["ConnectionStrings:connectionString"];
             services.AddDbContext<RepositoryContext>(o => o.UseSqlServer(connectionString));
+        }
+        public static void ConfigureRepositoryWrapper(this IServiceCollection services)
+        {
+            services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+        }
+        public static void ConfigureLoggerService(this IServiceCollection services)
+        {
+            services.AddSingleton<ILoggerManager, LoggerManager>();
         }
     }
 }

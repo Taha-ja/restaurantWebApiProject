@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8jGS/udOSCLPL84KO3ap0nH/XgRjsIDz4hLnHFymQrbaaJA7x8Sx85t2THrTITwy3/JKOfloql2NHco/yHVnMg==",
+  "dgSpecHash": "7oO7ZcXEvZd9mC2RtjN+lOLDXNED1M7IRqkznfxhZlegd1KBxYL2ufW5q9zbNp+Yln+pFtLE4hD6yJ7Xjl6JqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tjaaouan\\source\\repos\\RestaurantWebApplication\\BLL\\BLL.csproj",
+  "projectFilePath": "C:\\Users\\tjaaouan\\source\\repos\\RestaurantWebApplication\\restaurantWebApiProject\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tjaaouan\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\tjaaouan\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -37,6 +37,8 @@
     "C:\\Users\\tjaaouan\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\tjaaouan\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\tjaaouan\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\tjaaouan\\.nuget\\packages\\nlog\\5.1.2\\nlog.5.1.2.nupkg.sha512",
+    "C:\\Users\\tjaaouan\\.nuget\\packages\\nlog.extensions.logging\\5.2.2\\nlog.extensions.logging.5.2.2.nupkg.sha512",
     "C:\\Users\\tjaaouan\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\tjaaouan\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
     "C:\\Users\\tjaaouan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",

@@ -4,7 +4,7 @@ using DAL.Entities.Models;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace BLL.Services
+namespace BLL.Implementations.Services
 {
     public class RestaurantService : IRestaurantService
     {
